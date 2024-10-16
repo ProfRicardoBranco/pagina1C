@@ -1,4 +1,4 @@
 body{
-   background:black; 
+   background-image: linear-gradient(direction, black, red);
    color: white;
 }
