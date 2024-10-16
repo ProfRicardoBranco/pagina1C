@@ -1,5 +1,5 @@
 body{
-   background-image: linear-gradient(black, red);
+   background-image: linear-gradient(black 33%, white 34%, red 33%);
    color: white;
    width: 100vw;
    height: 100vh;
