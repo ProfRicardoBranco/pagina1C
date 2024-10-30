@@ -15,7 +15,11 @@ border-bottom: solid orangered 5px;
 font-size: 30px;
 }
 iframe{
+  
    border: solid 20px orangered;
+}
+.video1{
+   border: solid 20px rgba(255, 128, 0, 0.573);
 }
 div{
    float:left;
