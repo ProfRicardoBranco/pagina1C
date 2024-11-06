@@ -22,5 +22,9 @@ iframe{
    border: solid 20px rgba(255, 128, 0, 0.573);
 }
 div{
-   float:center;
+   float:left;
+}
+section{
+   display: flex;
+   justify-content: space-around;
 }
