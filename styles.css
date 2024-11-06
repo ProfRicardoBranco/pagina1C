@@ -27,6 +27,7 @@ iframe{
 }
 div{
    float:left;
+   text-align: center;
 }
 section{
    display: flex;
