@@ -1,3 +1,6 @@
+*{
+   font-family: "Permanent Marker", cursive;
+}
 body{
    background-image: linear-gradient(black 33%, white 67%, red 33%);
    color: white;
