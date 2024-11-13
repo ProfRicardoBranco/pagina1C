@@ -42,5 +42,6 @@ img{
 }
 
 .maisvideos{
-   display: block;
+   display: flex;
+   overflow-x: auto;
 }
