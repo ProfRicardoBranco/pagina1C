@@ -55,29 +55,60 @@ body {
    margin: 0;
    padding: 0;
    display: flex;
-   justify-content: center;
+   flex-direction: column;
    align-items: center;
-   height: 100vh;
    background-color: #f4f4f4;
  }
  
- .conteudo {
+ header {
+   background-color: #2a2a2a;
+   color: white;
+   padding: 10px 0;
+   width: 100%;
+   text-align: center;
+   font-size: 24px;
+ }
+ 
+ h1 {
+   font-size: 20px;
    text-align: center;
  }
  
- #imagem {
-   max-width: 100%;
+ .video1 {
+   display: block;
+   margin: 20px auto;
+ }
+ 
+ .ppreto {
+   text-align: center;
+   font-size: 18px;
+   color: #444;
+ }
+ 
+ .maisvideos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 15px;
+ }
+ 
+ .maisvideos a {
    cursor: pointer;
  }
  
- a {
-   display: inline-block;
-   margin-top: 10px;
-   text-decoration: none;
-   color: #007bff;
-   font-weight: bold;
+ .maisvideos img {
+   width: 250px;
+   height: 140px;
+   object-fit: cover;
+   border-radius: 8px;
+   transition: transform 0.3s ease;
  }
  
+ .maisvideos img:hover {
+   transform: scale(1.05);
+ }
+ 
+ /* Estilos do player flutuante */
  .player {
    position: fixed;
    top: 10%;

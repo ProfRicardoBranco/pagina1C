@@ -15,15 +15,14 @@
 
     <header>
         AluraFlix
-
     </header>
+
     <section>
         <div>
             <h1>Vídeos SPFC</h1>
             <iframe class="video1" width="560" height="315"
                 src="https://www.youtube.com/embed/fBx_EglM7DU?si=C3cM4-2nA-DMkUne" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div>
@@ -31,62 +30,47 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Qr1XYJ3IlUw?si=vtWWoVNGe2dZxloI"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                refer rerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </section>
-    </div>
-    <p></p>
+
     <p class="ppreto">O melhor do Brasil</p>
+
     <section class="maisvideos">
-
-
-
-
-
-
-
-        
-
-
-
-          <div class="conteudo">
-            <a href="javascript:void(0)" id="abrirPlayer">
-            <img src="https://img.youtube.com/vi/NMjJJdmCgh0/maxresdefault.jpg">
+        <!-- Links com imagens que abrem o player flutuante -->
+        <a href="javascript:void(0)" class="abrirPlayer" data-video-id="NMjJJdmCgh0">
+            <img src="https://img.youtube.com/vi/NMjJJdmCgh0/maxresdefault.jpg" alt="Vídeo 1">
         </a>
+
+        <a href="javascript:void(0)" class="abrirPlayer" data-video-id="iWyLflwjJjY">
+            <img src="https://img.youtube.com/vi/iWyLflwjJjY/maxresdefault.jpg" alt="Vídeo 2">
+        </a>
+
+        <a href="javascript:void(0)" class="abrirPlayer" data-video-id="zNR8SzQIMpw">
+            <img src="https://img.youtube.com/vi/zNR8SzQIMpw/maxresdefault.jpg" alt="Vídeo 3">
+        </a>
+
+        <a href="javascript:void(0)" class="abrirPlayer" data-video-id="NMjJJdmCgh0">
+            <img src="https://img.youtube.com/vi/NMjJJdmCgh0/maxresdefault.jpg" alt="Vídeo 4">
+        </a>
+
+        <a href="javascript:void(0)" class="abrirPlayer" data-video-id="NMjJJdmCgh0">
+            <img src="https://img.youtube.com/vi/NMjJJdmCgh0/maxresdefault.jpg" alt="Vídeo 5">
+        </a>
+
+        <a href="javascript:void(0)" class="abrirPlayer" data-video-id="NMjJJdmCgh0">
+            <img src="https://img.youtube.com/vi/NMjJJdmCgh0/maxresdefault.jpg" alt="Vídeo 6">
+        </a>
+    </section>
+
+    <!-- Player Flutuante -->
+    <div id="player" class="player">
+        <div class="fechar">
+            <button id="fecharPlayer">Fechar</button>
+        </div>
+        <iframe id="playerIframe" width="560" height="315" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
-              <!-- Player Flutuante -->
-              <div id="player" class="player">
-                <div class="fechar">
-                  <button id="fecharPlayer">Fechar</button>
-                </div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/SEU_VIDEO_ID?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            
-
-        <a href="https://www.youtube.com/watch?v=iWyLflwjJjY" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.youtube.com/vi/iWyLflwjJjY/maxresdefault.jpg">
-        </a>
-
-        <a href="https://www.youtube.com/watch?v=zNR8SzQIMpw" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.youtube.com/vi/zNR8SzQIMpw/maxresdefault.jpg">
-        </a>
-
-        <a href="https://www.youtube.com/watch?v=NMjJJdmCgh0" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.youtube.com/vi/NMjJJdmCgh0/maxresdefault.jpg">
-        </a>
-
-
-        <a href="https://www.youtube.com/watch?v=NMjJJdmCgh0" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.youtube.com/vi/NMjJJdmCgh0/maxresdefault.jpg">
-        </a>
-
-        <a href="https://www.youtube.com/watch?v=NMjJJdmCgh0" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.youtube.com/vi/NMjJJdmCgh0/maxresdefault.jpg">
-        </a>
-
-    </section>
     <script src="script.js"></script>
 </body>
 
