@@ -45,3 +45,70 @@ img{
    display: flex;
    overflow-x: auto;
 }
+
+
+
+/* styles.css */
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #f4f4f4;
+ }
+ 
+ .conteudo {
+   text-align: center;
+ }
+ 
+ #imagem {
+   max-width: 100%;
+   cursor: pointer;
+ }
+ 
+ a {
+   display: inline-block;
+   margin-top: 10px;
+   text-decoration: none;
+   color: #007bff;
+   font-weight: bold;
+ }
+ 
+ .player {
+   position: fixed;
+   top: 10%;
+   right: 10%;
+   width: 560px;
+   height: 315px;
+   background-color: rgba(0, 0, 0, 0.8);
+   border-radius: 10px;
+   display: none;
+   flex-direction: column;
+   justify-content: space-between;
+   z-index: 9999;
+ }
+ 
+ .player iframe {
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+ }
+ 
+ .fechar button {
+   background-color: #ff0000;
+   color: white;
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+   border-radius: 5px;
+   margin: 10px;
+ }
+ 
+ .fechar button:hover {
+   background-color: #cc0000;
+ }
+ 
